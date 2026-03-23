@@ -13,4 +13,16 @@
      * Sempre retorna um valor String, mesmo que o usuário digite um número.
  */
 
+let alerta = alert('Abre uma caixinha com uma mensagem.');
+
+console.log(alerta)
+
+let confirmar = confirm('Abre uma caixinha com uma mensagem e dois botões : Ok e Cancelar (true ou false). Entendeu ?');
+
+console.log(confirmar);
+
+let perguntar = prompt('Abre uma caixinha com uma mensagem e um campo para digitar texto.');
+
+console.log(perguntar);
+
 
